@@ -1,0 +1,27 @@
+<h1>test</h1>
+<%= @test %><br> 
+<%= @x %> 
+<p>looping through with an iterator in the controller </p>
+<%= @y %> 
+
+<p>looping through with an iterator in the view </p>
+
+<% @z = 0 %>
+<% ary = [1,2,3,4,5] %> 
+<% ary.each do |i| %> 
+   	<%= @z = i %>  
+<% end %> 
+
+<p>looping through with a for loop in the controller </p>
+<%= @alpha %> 
+
+<p>looping through with a for loop in the view </p>
+<% for @b in 0..5 %> 
+   <%= @b %> 
+<% end %> 
+
+
+
+
+
+
